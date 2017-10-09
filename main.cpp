@@ -19,6 +19,7 @@ int main() {
     sort(HeghestAmountOfBallsInBins.begin(), HeghestAmountOfBallsInBins.end());
     cout << HeghestAmountOfBallsInBins[HeghestAmountOfBallsInBins.size() - 1] << endl;
 
+    //Kommentar der er bedre en christians HAHA
 
     return 0;
 }
