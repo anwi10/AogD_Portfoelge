@@ -12,12 +12,12 @@ BallsAndBins::~BallsAndBins() {
 
 }
 
-vector<int> BallsAndBins::ThrowBalls() {
+vector<int> BallsAndBins::ThrowBalls(int Throws) {
     vector<int> ThrowBall;
     random_device rd;
-    for (int i = 0; i < 32768; ++i) {
+    for (int i = 0; i < Throws; ++i) {
         int NewNumber = 0;
-        NewNumber = rd() % 32768;
+        NewNumber = rd() % Throws;
         ThrowBall.push_back(NewNumber);
     }
     return ThrowBall;
@@ -42,8 +42,6 @@ int BallsAndBins::HeighestAmountOfBalls(vector<int> &BinsWithBalls) {
             CurrentBallsInCurrentBin = 0;
         }
     }
-
-
     return HeighestAmountOfBallsSoFar;
 }
 

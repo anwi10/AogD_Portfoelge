@@ -24,7 +24,7 @@ public:
 
     vector<int> SortListOfThrows(vector<int> &);
 
-    vector<int> ThrowBalls();
+    vector<int> ThrowBalls(int);
 
 private:
 
