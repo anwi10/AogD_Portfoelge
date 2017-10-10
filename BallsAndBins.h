@@ -9,6 +9,7 @@
 #include "vector"
 #include <algorithm>
 #include <random>
+#include "BinarySearchTree.h"
 
 using namespace std;
 
@@ -20,13 +21,13 @@ public:
 
     ~BallsAndBins();
 
-    int HeighestAmountOfBalls(vector<int> &);
+    int HeighestAmountOfBalls(BinarySearchTree &);
 
     vector<int> SortListOfThrows(vector<int> &);
 
-    vector<int> ThrowBalls(int);
+    BinarySearchTree ThrowBalls(int);
 
-    vector<int> ThePowerOfTwoChoices(int);
+    BinarySearchTree ThePowerOfTwoChoices(int);
 
 private:
 

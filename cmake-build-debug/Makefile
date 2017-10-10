@@ -150,6 +150,33 @@ BallsAndBins.cpp.s:
 	$(MAKE) -f CMakeFiles/BallsAndBins.dir/build.make CMakeFiles/BallsAndBins.dir/BallsAndBins.cpp.s
 .PHONY : BallsAndBins.cpp.s
 
+BinarySearchTree.o: BinarySearchTree.cpp.o
+
+.PHONY : BinarySearchTree.o
+
+# target to build an object file
+BinarySearchTree.cpp.o:
+	$(MAKE) -f CMakeFiles/BallsAndBins.dir/build.make CMakeFiles/BallsAndBins.dir/BinarySearchTree.cpp.o
+.PHONY : BinarySearchTree.cpp.o
+
+BinarySearchTree.i: BinarySearchTree.cpp.i
+
+.PHONY : BinarySearchTree.i
+
+# target to preprocess a source file
+BinarySearchTree.cpp.i:
+	$(MAKE) -f CMakeFiles/BallsAndBins.dir/build.make CMakeFiles/BallsAndBins.dir/BinarySearchTree.cpp.i
+.PHONY : BinarySearchTree.cpp.i
+
+BinarySearchTree.s: BinarySearchTree.cpp.s
+
+.PHONY : BinarySearchTree.s
+
+# target to generate assembly for a file
+BinarySearchTree.cpp.s:
+	$(MAKE) -f CMakeFiles/BallsAndBins.dir/build.make CMakeFiles/BallsAndBins.dir/BinarySearchTree.cpp.s
+.PHONY : BinarySearchTree.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... BallsAndBins.o"
 	@echo "... BallsAndBins.i"
 	@echo "... BallsAndBins.s"
+	@echo "... BinarySearchTree.o"
+	@echo "... BinarySearchTree.i"
+	@echo "... BinarySearchTree.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

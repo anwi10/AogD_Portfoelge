@@ -88,6 +88,12 @@
 		<Unit filename="/cygdrive/c/Users/Anders/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/BallsAndBins.h">
 			<Option target="BallsAndBins"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Anders/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/BinarySearchTree.cpp">
+			<Option target="BallsAndBins"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Anders/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/BinarySearchTree.h">
+			<Option target="BallsAndBins"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Anders/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/main.cpp">
 			<Option target="BallsAndBins"/>
 		</Unit>
