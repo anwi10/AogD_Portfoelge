@@ -292,13 +292,21 @@ void BinarySearchTree::PostOrder(BinaryNode *t) const {
 }
 
 void BinarySearchTree::LevelOrder(BinaryNode *t) const  {
-    queue<BinaryNode*>levelOrder;
+
 
     if (t != nullptr) {
-        cout << t->element << endl;
-        if (t->left != nullptr){
-            LevelOrder(t->left);
-            cout << t->element << endl;
+       queue<BinaryNode*> levelOrder;
+       levelOrder.push(t);
+        while(!levelOrder.empty()){
+            BinaryNode* current = levelOrder.front();
+            cout << current->element << " ";
+            if(current->left != nullptr){
+                levelOrder.push(current->left);
+            }
+            if(current->right != nullptr){
+                levelOrder.push(current->right);
+            }
+            levelOrder.pop();
         }
     }
 }

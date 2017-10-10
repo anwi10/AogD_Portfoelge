@@ -50,6 +50,7 @@ int main() {
         BinTreePowerOFTwo32.insert(BandB.HeighestAmountOfBalls(ThrowTree));
     }
     cout << "Out of 1000 tries, the maximum number of balls in one bin was: " << BinTreePowerOFTwo32.findMax() << endl;
+    cout << "We can with a very high certainty say, that if a bin can contain " << BinTreePowerOFTwo32.findMax() + 4 << " balls, the bin will never be full" << endl;
 
     return 0;
 }
