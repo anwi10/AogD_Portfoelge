@@ -215,7 +215,7 @@ void BinarySearchTree::printTree(BinaryNode *t) const
 	if (t != nullptr)
 	{
 		printTree(t->left);
-		cout << t->element << endl;
+		cout << t->element << " ";
 		printTree(t->right);
 	}
 }
@@ -276,7 +276,7 @@ int BinarySearchTree::NumberOfFullNodes() {
 void BinarySearchTree::PreOrder(BinaryNode *t) const {
     if (t != nullptr)
     {
-        cout << t->element << endl;
+        cout << t->element << " ";
         PreOrder(t->left);
         PreOrder(t->right);
     }
@@ -287,7 +287,7 @@ void BinarySearchTree::PostOrder(BinaryNode *t) const {
     {
         PostOrder(t->left);
         PostOrder(t->right);
-        cout << t->element << endl;
+        cout << t->element << " ";
     }
 }
 

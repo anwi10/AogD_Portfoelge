@@ -8,96 +8,96 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BallsAndBins">
-				<Option output="C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/BallsAndBins.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug"/>
+				<Option output="C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/BallsAndBins.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 BallsAndBins"/>
-					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 BallsAndBins"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BallsAndBins/fast">
-				<Option output="C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/BallsAndBins.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug"/>
+				<Option output="C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/BallsAndBins.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 BallsAndBins/fast"/>
-					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 BallsAndBins/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/BallsAndBins.cpp">
+		<Unit filename="C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/BallsAndBins.cpp">
 			<Option target="BallsAndBins"/>
 		</Unit>
-		<Unit filename="C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/BallsAndBins.h">
+		<Unit filename="C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/BallsAndBins.h">
 			<Option target="BallsAndBins"/>
 		</Unit>
-		<Unit filename="C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/BinarySearchTree.cpp">
+		<Unit filename="C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/BinarySearchTree.cpp">
 			<Option target="BallsAndBins"/>
 		</Unit>
-		<Unit filename="C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/BinarySearchTree.h">
+		<Unit filename="C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/BinarySearchTree.h">
 			<Option target="BallsAndBins"/>
 		</Unit>
-		<Unit filename="C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/main.cpp">
+		<Unit filename="C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/main.cpp">
 			<Option target="BallsAndBins"/>
 		</Unit>
-		<Unit filename="C:/Users/Chris/Dropbox/5. Semester OPGAVER/AogD_Portfoelge/CMakeLists.txt">
+		<Unit filename="C:/Users/Anders Winter/CLionProjects/AogD_Portfoelge/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
