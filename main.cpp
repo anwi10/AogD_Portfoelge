@@ -5,7 +5,7 @@
 int main() {
     BallsAndBins BandB;
     random_device rd;
-    vector<int> HeghestAmountOfBallsInBins;
+    /*vector<int> HeghestAmountOfBallsInBins;
     std::cout << "Balls and Bins test driver startet... " << std::endl;
     cout << "\nAssigment 1: " << endl;
     cout << "Throwing 10007 balls into 10007 bins, 1000 times... " << endl;
@@ -28,16 +28,22 @@ int main() {
     sort(HeghestAmountOfBallsInBins.begin(), HeghestAmountOfBallsInBins.end());
     cout << "Out of 1000 tries, the maximum number of balls in one bin was: " << HeghestAmountOfBallsInBins[HeghestAmountOfBallsInBins.size() - 1] << endl;
     cout << "We can with a very high certainty say, that if a bin can contain " << HeghestAmountOfBallsInBins[HeghestAmountOfBallsInBins.size() - 1] + 4 << " balls, the bin will never be full" << endl;
+*/
 
     cout << "\nAssignment 4: " << endl;
     cout << "Testing 'the power of two choices' on assignment 1: " << endl;
 
+    vector<int> PowerOfTwoVector;
+    vector<int> HeighestAmountOfBallsInBins;
+
+
+
     for (int i = 0; i < 1000; ++i) {
-        vector<int> testVector = BandB.ThePowerOfTwoChoices(10007);
-        testVector = BandB.SortListOfThrows(testVector);
-        HeghestAmountOfBallsInBins.push_back(BandB.HeighestAmountOfBalls(testVector));
+        PowerOfTwoVector = BandB.ThePowerOfTwoChoices(10007);
+        PowerOfTwoVector = BandB.SortListOfThrows(PowerOfTwoVector);
+        HeighestAmountOfBallsInBins.push_back(BandB.HeighestAmountOfBalls(PowerOfTwoVector));
     }
-    sort(HeghestAmountOfBallsInBins.begin(), HeghestAmountOfBallsInBins.end());
-    cout << "Out of 1000 tries, the maximum number of balls in one bin was: " << HeghestAmountOfBallsInBins[HeghestAmountOfBallsInBins.size() - 1] << endl;
+    sort(HeighestAmountOfBallsInBins.begin(), HeighestAmountOfBallsInBins.end());
+    cout << "Out of 1000 tries, the maximum number of balls in one bin was: " << HeighestAmountOfBallsInBins[HeighestAmountOfBallsInBins.size() - 1] << endl;
     return 0;
 }

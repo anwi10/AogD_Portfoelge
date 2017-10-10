@@ -26,7 +26,6 @@ vector<int> BallsAndBins::ThrowBalls(int Throws) {
 vector<int> BallsAndBins::SortListOfThrows(vector<int> &ListOfThrows) {
 
     sort(ListOfThrows.begin(), ListOfThrows.end());
-
     return ListOfThrows;
 }
 
@@ -47,11 +46,9 @@ int BallsAndBins::HeighestAmountOfBalls(vector<int> &BinsWithBalls) {
 
 vector<int> BallsAndBins::ThePowerOfTwoChoices(int Throws) {
     vector<int> ThrowBalls;
-
     random_device rd;
+
     for (int i = 0; i < Throws; ++i) {
-       /* int NewNumber = 0;
-        NewNumber = rd() % Throws;*/
 
         int A = 0;
         int B = 0;
@@ -59,16 +56,16 @@ vector<int> BallsAndBins::ThePowerOfTwoChoices(int Throws) {
         B = rd() % Throws;
         int CounterA = 0;
         int CounterB = 0;
-        if (ThrowBalls.size() == 0){
+        if (ThrowBalls.empty()){
             ThrowBalls.push_back(A);
         }
         else{
           for (int j = 0; j < ThrowBalls.size(); ++j) {
 
-            if (ThrowBalls.at(i) == A){
+            if (ThrowBalls.at(j) == A){
                CounterA++;
             }
-            else if(ThrowBalls.at(i) == B){
+            else if(ThrowBalls.at(j) == B){
                CounterB++;
             }
 
