@@ -26,6 +26,8 @@ public:
 
     vector<int> ThrowBalls(int);
 
+    vector<int> ThePowerOfTwoChoices(int);
+
 private:
 
 

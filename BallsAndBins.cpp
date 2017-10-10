@@ -45,3 +45,45 @@ int BallsAndBins::HeighestAmountOfBalls(vector<int> &BinsWithBalls) {
     return HeighestAmountOfBallsSoFar;
 }
 
+vector<int> BallsAndBins::ThePowerOfTwoChoices(int Throws) {
+    vector<int> ThrowBalls;
+
+    random_device rd;
+    for (int i = 0; i < Throws; ++i) {
+       /* int NewNumber = 0;
+        NewNumber = rd() % Throws;*/
+
+        int A = 0;
+        int B = 0;
+        A = rd() % Throws;
+        B = rd() % Throws;
+        int CounterA = 0;
+        int CounterB = 0;
+        if (ThrowBalls.size() == 0){
+            ThrowBalls.push_back(A);
+        }
+        else{
+          for (int j = 0; j < ThrowBalls.size(); ++j) {
+
+            if (ThrowBalls.at(i) == A){
+               CounterA++;
+            }
+            else if(ThrowBalls.at(i) == B){
+               CounterB++;
+            }
+
+          }
+        if (CounterA == CounterB){
+            ThrowBalls.push_back(A);
+        }
+        else if (CounterA > CounterB){
+            ThrowBalls.push_back(B);
+        }
+        else {
+            ThrowBalls.push_back(A);
+        }
+    }}
+    return ThrowBalls;
+}
+
+
