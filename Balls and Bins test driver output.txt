@@ -1,0 +1,25 @@
+"C:\Users\Anders Winter\CLionProjects\AogD_Portfoelge\cmake-build-debug\BallsAndBins.exe"
+Wanna test traversals, or Balls and bins?: a = Traversals , b = Balls and Bins
+b
+b
+Balls and Bins test driver startet...
+
+Assigment 1:
+Throwing 10007 balls into 10007 bins, 1000 times...
+Out of 1000 tries, the maximum number of balls in one bin was: 5
+
+Assignment 3:
+Throwing 32768 balls into 32768 bins, 1000 times...
+Out of 1000 tries, the maximum number of balls in one bin was: 2
+We can with a very high certainty say, that if a bin can contain 6 balls, the bin will never be full
+
+Assignment 4.1:
+Testing 'the power of two choices' on assignment 1:
+Out of 1000 tries, the maximum number of balls in one bin was: 2
+
+Assignment 4.2:
+Testing 'the power of two choices' on assignment 3:
+Out of 1000 tries, the maximum number of balls in one bin was: 2
+We can with a very high certainty say, that if a bin can contain 6 balls, the bin will never be full
+
+Process finished with exit code 0

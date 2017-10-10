@@ -18,7 +18,6 @@ int main() {
     cin >> Choose;
     switch (Choose){
         case 'a' :
-
             cout << "Binary search tree test driver startet..." << endl;
             cout << "please enter the amount of entries in the search tree : " << endl;
             cin >> Entries;
@@ -69,8 +68,6 @@ int main() {
 
             cout << "Out of 1000 tries, the maximum number of balls in one bin was: " << BinTree32.findMax()<< endl;
             cout << "We can with a very high certainty say, that if a bin can contain " << BinTree32.findMax() + 4 << " balls, the bin will never be full" << endl;
-
-
 
             cout << "\nAssignment 4.1: " << endl;
             cout << "Testing 'the power of two choices' on assignment 1: " << endl;
